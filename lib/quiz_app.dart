@@ -65,7 +65,6 @@ class _QuizPageState extends State<QuizPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffefe5dc),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(10.0),

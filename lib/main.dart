@@ -4,8 +4,10 @@ import 'package:quiz_app/quiz_app.dart';
 
 void main() => runApp(
       MaterialApp(
-        home: Scaffold(
+        theme: ThemeData(
           backgroundColor: Color(0xffefe5dc),
+        ),
+        home: Scaffold(
           body: SafeArea(
             child: Padding(
               padding: EdgeInsets.all(10.0),
